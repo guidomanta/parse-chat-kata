@@ -1,0 +1,17 @@
+{
+  "name": "parse-chat-kata",
+  "version": "1.0.0",
+  "description": "Parsing a string chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap --node-arg=--require=ts-node/register"
+  },
+  "author": "Guido Manta <guido.manta@gmail.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/tap": "^15.0.8",
+    "tap": "^16.3.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
