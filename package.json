@@ -2,8 +2,10 @@
   "name": "parse-chat-kata",
   "version": "1.0.0",
   "description": "Parsing a string chat",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
+    "build": "tsc",
+    "dev": "nodemon",
     "test": "tap --node-arg=--require=ts-node/register"
   },
   "author": "Guido Manta <guido.manta@gmail.com>",
@@ -13,5 +15,8 @@
     "tap": "^16.3.7",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "nodemon": "^3.0.1"
   }
 }

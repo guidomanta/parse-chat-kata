@@ -6,7 +6,7 @@ export function parseSingleSentence(input: string) {
 
   const date = input.match(timestampRegex)![0];
   const mention = input.match(mentionRegex)![0];
-  const sentence = input.split(' : ')[1];
+  const sentence = input.split(' : ')[1]!;
   const type = input.match(typeRegex)![0].toLowerCase();
 
   return [{ date, mention, sentence, type }];
