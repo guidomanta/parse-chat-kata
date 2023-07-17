@@ -1,6 +1,6 @@
 import { parseSingleSentence } from '../step-1';
 
-interface sentenceOutput {
+export interface sentenceOutput {
   date: string;
   mention: string;
   sentence: string;
